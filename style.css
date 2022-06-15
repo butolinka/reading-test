@@ -1,0 +1,117 @@
+body{
+    background-color: #FBF8F1;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.tab{
+    text-indent: 25px;
+    font-family: 'Vollkorn', serif;
+    font-size:20px;
+}
+.reading{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    flex-direction: column;
+    display: none;
+    background-color: #EDEDED;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    background-color: #EDEDED;
+}
+h2{
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    color: #171717;
+}
+.head{
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    color: #171717;
+}
+.title{
+    margin-left: 25%;
+    font-family: 'Vollkorn', serif;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btnRead, .btnQuiz, .btnGo, .startOver{
+    height: 40px;
+    border-radius: 10px;
+    width: 200px;
+    font-family: 'Vollkorn', serif;
+    font-size:20px;
+}
+label{
+    font-family: 'Vollkorn', serif;
+    font-size:20px;
+    margin: 5px;
+    font-family: 'Vollkorn', serif;
+}
+
+form{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.question{
+    display:flex;
+    align-items: stretch;
+    font-family: 'Vollkorn', serif;
+    font-size:20px;
+    margin: 20px;
+    border: 3px solid #444444;
+    border-radius: 5px;
+    padding: 10px;
+    flex-direction: column;
+    width: 200px;
+}
+.answers{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: 'Vollkorn', serif;
+}
+.questions{
+    display: none;
+    background-color: #EDEDED;
+
+}
+.results{
+    display: none;
+    background-color: #EDEDED;
+    font-family: 'Vollkorn', serif;
+}
+
+.result, .speed, .comprehension, .speedCompr{
+    font-family: 'Vollkorn', serif;
+    font-size: 30px;
+    color: #DA0037;
+}
+.testRes{
+    display: none;
+}
+
+@media all and (max-width:800px){
+    h1{
+        font-size: 30px;
+    }
+    .tab{
+        font-size: 18px;
+    }
+}
